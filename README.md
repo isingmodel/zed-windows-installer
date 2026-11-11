@@ -1,6 +1,6 @@
 # Zed Windows Installer
 
-Zed 공식 Windows 설치 파일을 보관하는 비공식 미러입니다. Zed Industries와 제휴한 저장소가 아닙니다.
+Zed 공식 Windows 설치 파일과 Linux 원격 서버 파일을 보관하는 비공식 미러입니다. Zed Industries와 제휴한 저장소가 아닙니다.
 
 ## 다운로드
 
@@ -17,9 +17,15 @@ Zed 공식 Windows 설치 파일을 보관하는 비공식 미러입니다. Zed 
 
 다운로드한 `Zed-x86_64.exe`를 실행하고 설치 안내를 따르세요. ARM64 PC용 파일은 [Zed 공식 다운로드 페이지](https://zed.dev/download)에서 받을 수 있습니다.
 
+### Linux x86_64 원격 서버
+
+**[Zed 1.27.0 Linux x86_64 원격 서버 다운로드](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/remote-server/zed-remote-server-linux-x86_64.gz)**
+
+Linux x86_64 호스트에서 사용하는 원격 서버 파일입니다. 압축 파일의 크기는 약 39.2 MB입니다.
+
 ## 무결성 확인
 
-공식 GitHub 릴리스가 제공한 SHA-256:
+공식 GitHub 릴리스가 제공한 파일별 SHA-256은 [SHA256SUMS](SHA256SUMS)에서 확인할 수 있습니다. Windows 설치 파일의 SHA-256은 다음과 같습니다.
 
 ```text
 6a39f9a78a6aac805f5aedcf03384b4b49349e9282903f27ebafcb18dde538ca
@@ -37,12 +43,13 @@ Get-FileHash .\Zed-x86_64.exe -Algorithm SHA256
 
 - [공식 릴리스 v1.27.0](https://github.com/zed-industries/zed/releases/tag/v1.27.0)
 - [공식 원본 설치 파일](https://github.com/zed-industries/zed/releases/download/v1.27.0/Zed-x86_64.exe)
+- [공식 원본 Linux x86_64 원격 서버 파일](https://github.com/zed-industries/zed/releases/download/v1.27.0/zed-remote-server-linux-x86_64.gz)
 - [해당 버전의 소스 코드와 빌드 자료](https://github.com/zed-industries/zed/tree/v1.27.0)
 - [해당 버전의 소스 코드 ZIP 다운로드](https://github.com/zed-industries/zed/archive/refs/tags/v1.27.0.zip)
 - [Windows 빌드 안내](https://github.com/zed-industries/zed/blob/v1.27.0/docs/src/development/windows.md)
 - [공식 Windows 설치 안내](https://zed.dev/docs/windows)
 
-설치 파일은 공식 배포본을 수정 없이 보관합니다. 이 저장소는 위에 명시한 버전을 보관하며 자동으로 업데이트하지 않습니다.
+파일은 공식 배포본을 수정 없이 보관합니다. 이 저장소는 위에 명시한 버전을 보관하며 자동으로 업데이트하지 않습니다.
 
 ## 라이선스 및 고지
 
