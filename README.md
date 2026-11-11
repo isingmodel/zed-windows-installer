@@ -25,14 +25,14 @@ Linux x86_64 호스트에서 사용하는 원격 서버 파일입니다. 압축 
 
 ### OpenCode v2.2.7 Linux x64
 
-`main` 브랜치에 최대 20 MiB 크기로 나눈 파일 6개를 보관합니다. 모두 같은 폴더에 다운로드하세요.
+`main` 브랜치에 약 61 MB씩 나눈 파일 2개를 보관합니다. 두 파일을 같은 폴더에 다운로드하세요.
 
-[00](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-00) · [01](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-01) · [02](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-02) · [03](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-03) · [04](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-04) · [05](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-05)
+[1번 파일](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-01-of-02) · [2번 파일](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-02-of-02)
 
 다운로드한 폴더에서 다음 명령으로 원본 압축 파일을 복원하고 공식 SHA-256과 비교하세요.
 
 ```sh
-cat opencode-linux-x64.tar.gz.part-* > opencode-linux-x64.tar.gz
+cat opencode-linux-x64.tar.gz.part-01-of-02 opencode-linux-x64.tar.gz.part-02-of-02 > opencode-linux-x64.tar.gz
 printf '%s\n' '89a6cee227b54bc011179c528a5e63176032462b1a5e21723b616801cddc2ca7  opencode-linux-x64.tar.gz' | sha256sum -c -
 ```
 
