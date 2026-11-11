@@ -25,9 +25,18 @@ Linux x86_64 호스트에서 사용하는 원격 서버 파일입니다. 압축 
 
 ### OpenCode v2.2.7 Linux x64
 
-**[opencode-linux-x64.tar.gz 다운로드](https://github.com/isingmodel/zed-windows-installer/releases/download/opencode-v2.2.7/opencode-linux-x64.tar.gz)** (약 121.8 MB)
+`main` 브랜치에 최대 20 MiB 크기로 나눈 파일 6개를 보관합니다. 모두 같은 폴더에 다운로드하세요.
 
-SHA-256과 MIT 라이선스는 [저장소 릴리스](https://github.com/isingmodel/zed-windows-installer/releases/tag/opencode-v2.2.7)에서 확인할 수 있습니다. [OpenCode 공식 릴리스](https://github.com/anomalyco/opencode/releases/tag/v2.2.7)
+[00](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-00) · [01](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-01) · [02](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-02) · [03](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-03) · [04](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-04) · [05](https://github.com/isingmodel/zed-windows-installer/raw/refs/heads/main/opencode/v2.2.7/opencode-linux-x64.tar.gz.part-05)
+
+다운로드한 폴더에서 다음 명령으로 원본 압축 파일을 복원하고 공식 SHA-256과 비교하세요.
+
+```sh
+cat opencode-linux-x64.tar.gz.part-* > opencode-linux-x64.tar.gz
+printf '%s\n' '89a6cee227b54bc011179c528a5e63176032462b1a5e21723b616801cddc2ca7  opencode-linux-x64.tar.gz' | sha256sum -c -
+```
+
+[분할 파일 폴더](opencode/v2.2.7) · [MIT 라이선스](opencode/v2.2.7/LICENSE-MIT.txt) · [OpenCode 공식 릴리스](https://github.com/anomalyco/opencode/releases/tag/v2.2.7)
 
 ## 무결성 확인
 
