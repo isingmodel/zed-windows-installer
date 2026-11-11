@@ -1,6 +1,6 @@
-# Zed Windows Installer
+# 파일 저장소
 
-Zed 공식 Windows 설치 파일과 Linux 원격 서버 파일을 보관하는 비공식 미러입니다. Zed Industries와 제휴한 저장소가 아닙니다.
+Zed와 OpenCode의 공식 배포 파일을 보관하는 비공식 미러입니다.
 
 ## 다운로드
 
@@ -23,9 +23,15 @@ Zed 공식 Windows 설치 파일과 Linux 원격 서버 파일을 보관하는 �
 
 Linux x86_64 호스트에서 사용하는 원격 서버 파일입니다. 압축 파일의 크기는 약 39.2 MB입니다.
 
+### OpenCode v2.2.7 Linux x64
+
+**[opencode-linux-x64.tar.gz 다운로드](https://github.com/isingmodel/zed-windows-installer/releases/download/opencode-v2.2.7/opencode-linux-x64.tar.gz)** (약 121.8 MB)
+
+SHA-256과 MIT 라이선스는 [저장소 릴리스](https://github.com/isingmodel/zed-windows-installer/releases/tag/opencode-v2.2.7)에서 확인할 수 있습니다. [OpenCode 공식 릴리스](https://github.com/anomalyco/opencode/releases/tag/v2.2.7)
+
 ## 무결성 확인
 
-공식 GitHub 릴리스가 제공한 파일별 SHA-256은 [SHA256SUMS](SHA256SUMS)에서 확인할 수 있습니다. Windows 설치 파일의 SHA-256은 다음과 같습니다.
+Zed 배포 파일의 공식 SHA-256은 [SHA256SUMS](SHA256SUMS)에서 확인할 수 있습니다. Windows 설치 파일의 SHA-256은 다음과 같습니다.
 
 ```text
 6a39f9a78a6aac805f5aedcf03384b4b49349e9282903f27ebafcb18dde538ca
